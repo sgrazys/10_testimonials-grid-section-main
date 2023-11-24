@@ -1,0 +1,73 @@
+:root {
+	/* COLORS */
+	/* Primary */
+	--violet-color: #7440c7;
+	--gray-color: #47556b;
+	--dark-color: #1a212e;
+
+	/* Neutral */
+	--light-gray-color: #cfcfcf;
+	--light-blue-color: #edf2f7;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+body,
+body *,
+body *::after,
+body *::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 1.3rem;
+}
+
+.testimonials {
+	background-color: #ecf2f8;
+	height: 100vh;
+	max-width: 144rem;
+	padding: 7.1rem 2.4rem;
+}
+
+.container {
+}
+.card {
+	border: solid 1px orangered;
+	background-color: var(--violet-color);
+	padding: 2.6rem 0 3.2rem 3.2rem;
+}
+
+.card-top {
+}
+
+.user-photo {
+	outline: 2px solid #a775f1;
+	border-radius: 50%;
+	width: 2.8rem;
+}
+
+.user-crediantials {
+	display: flex;
+	gap: 1.7rem;
+}
+
+.user-name {
+	color: #ffffff;
+}
+
+.user-status {
+	font-size: 1.1rem;
+	color: #ffffff50;
+}
+
+.card-heading {
+}
+
+.ard-description {
+}
