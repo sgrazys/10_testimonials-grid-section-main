@@ -26,24 +26,40 @@ body *::before {
 body {
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 1.3rem;
+	background-color: #ecf2f8;
+	height: 100vh;
 }
 
 .testimonials {
-	background-color: #ecf2f8;
-	height: 100vh;
 	max-width: 144rem;
 	padding: 7.1rem 2.4rem;
 }
 
 .container {
 }
+
 .card {
-	border: solid 1px orangered;
-	background-color: var(--violet-color);
 	padding: 2.6rem 0 3.2rem 3.2rem;
+	border-radius: 6px;
+	box-shadow: 4rem 6rem 5rem -4.7rem #48556a3f;
+	position: relative;
+}
+
+.card-1 {
+	background-color: var(--violet-color);
+}
+
+.icon {
+	position: absolute;
+
+	top: 0;
+	right: 2.4rem;
 }
 
 .card-top {
+	display: flex;
+	gap: 1.7rem;
+	margin-bottom: 1.8rem;
 }
 
 .user-photo {
@@ -53,8 +69,6 @@ body {
 }
 
 .user-crediantials {
-	display: flex;
-	gap: 1.7rem;
 }
 
 .user-name {
@@ -67,7 +81,19 @@ body {
 }
 
 .card-heading {
+	font-size: 2rem;
+	color: #ffffff;
+	margin-right: 3.2rem;
+	position: relative;
+	z-index: 10;
 }
 
-.ard-description {
+.card-description {
+	margin-right: 4.8rem;
+	color: #ffffff50;
+	line-height: 1.8;
+}
+
+.card-1 > .card-heading {
+	margin-bottom: 4rem;
 }
