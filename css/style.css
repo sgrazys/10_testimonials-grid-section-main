@@ -36,9 +36,6 @@ body {
 	font-weight: 500;
 }
 
-.container {
-}
-
 .card {
 	padding: 2.6rem 0 3.2rem 3.2rem;
 	border-radius: 6px;
@@ -88,9 +85,6 @@ body {
 .card-1 .user-photo,
 .card-4 .user-photo {
 	outline: 2px solid #a775f1;
-}
-
-.user-crediantials {
 }
 
 .user-name {
@@ -146,9 +140,13 @@ body {
 	}
 	.container {
 		display: grid;
-		grid-template-columns: repeat(4, minmax(20rem, 28.5rem));
+		grid-template-columns: repeat(4, 25.5rem);
 		column-gap: 3rem;
 		row-gap: 2.4rem;
+	}
+
+	.card {
+		padding-right: 3.2rem;
 	}
 
 	.card-1 {
@@ -167,7 +165,30 @@ body {
 		grid-row: span 2;
 	}
 
+	.card-3,
+	.card-white {
+		padding-bottom: 2.6rem;
+	}
+
 	.card:not(:last-of-type) {
 		margin-bottom: 0;
+	}
+
+	.card-1 > .card-heading {
+		margin-bottom: 1.6rem;
+	}
+
+	.card-white > .card-heading,
+	.card-4 > .card-heading {
+		margin-bottom: 2.4rem;
+	}
+
+	.card-heading,
+	.card-description {
+		margin-right: 0;
+	}
+
+	.card-1 .icon {
+		right: 8rem;
 	}
 }
