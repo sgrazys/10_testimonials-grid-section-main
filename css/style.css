@@ -134,7 +134,9 @@ body {
 
 @media (min-width: 1024px) {
 	.testimonials {
+		height: 100vh;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 	}
